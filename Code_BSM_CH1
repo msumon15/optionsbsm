@@ -71,7 +71,7 @@ for maturity in maturities:
     plt.plot(data['STRIKE'], data['IMP_VOL'], label = maturity.date(), lw = 1.5)
     plt.plot(data['STRIKE'], data['IMP_VOL'], 'r.')
 plt.grid(True)
-plt.xlabel('strile')
+plt.xlabel('strike')
 plt.ylabel('implied volatility of volatility')
 plt.legend()
 plt.show()
